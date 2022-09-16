@@ -1,0 +1,75 @@
+@charset "UTF-8";
+
+@import 'reset';
+@import "fonts";
+@import 'colors';
+
+@import '../components/Header/Header.module.scss';
+@import '../components/HeroSideImageRight/HeroSideImageRight.module.scss';
+@import '../components/FeatureSplitRight/FeatureSplitRight.module.scss';
+@import '../components/PostsTall/PostsTall.module.scss';
+@import '../components/CTASection/CTASection.module.scss';
+@import '../components/PostsBlogTop/PostsBlogTop.module.scss';
+@import '../components/Footer/Footer.module.scss';
+
+
+
+// @import "variables";
+// @import "variables";
+// @import "fonts";
+// @import "mixins";
+// @import "core";
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.button__transparent-marmalade {
+  display: inline-block;
+  color: $color-miami-marmalade;
+  padding: 20px 35px;
+  border: 1px solid;
+  border-radius: 5px;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 1.125rem;
+}
+
+.button__dense-marmalade {
+  display: inline-block;
+  background-color: $color-miami-marmalade;
+  color: $color-white;
+  padding: 20px 35px;
+  display: inline-block;
+  border: 1px solid;
+  border-radius: 5px;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 1.125rem;
+}
+
+.button__transparent-black {
+  display: inline-block;
+  color: $color-black;
+  padding: 20px 35px;
+  border: 1px solid;
+  border-radius: 5px;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 1.125rem;
+}
+
+.button__dense-black {
+  display: inline-block;
+  background-color: $color-black;
+  border-color: $color-black;
+  color: $color-white;
+  padding: 20px 35px;
+  display: inline-block;
+  border: 0px solid;
+  border-radius: 5px;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 1.125rem;
+}

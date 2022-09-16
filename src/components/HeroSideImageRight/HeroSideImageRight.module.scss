@@ -1,0 +1,54 @@
+.heroSideImageRight__wrapper {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 0;
+  background-color: $color-hotot-bunny;
+}
+
+.heroSideImageRight__find,
+.heroSideImageRight__image {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  align-self: center;
+  width: 50%;
+}
+
+.heroSideImageRight__find {
+  padding-left: 150px;
+  padding-right: 200px;
+}
+
+.heroSideImageRight__heading {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 56px;
+  line-height: 66px;
+  margin-bottom: 50px;
+}
+
+.heroSideImageRight__paragraph {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 140.62%;
+  margin-bottom: 55px;
+}
+
+@media (max-width: 1450px) {
+  .heroSideImageRight__wrapper {
+    flex-direction: column;
+  }
+  .heroSideImageRight__find {
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  .heroSideImageRight__find,
+  .heroSideImageRight__image {
+    width: 95%;
+  }
+}

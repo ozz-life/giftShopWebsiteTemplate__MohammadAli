@@ -1,0 +1,85 @@
+.CTASection {
+  display: flex;
+  justify-content: space-around;
+  background-color: $color-miami-marmalade;
+  padding: 80px 235px;
+}
+
+.CTASection__h1 {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 140.62%;
+  margin-bottom: 0;
+}
+.CTASection__h2 {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 32px;
+  line-height: 140.62%;
+}
+
+.CTASection__txt,
+.CTASection__buttons {
+  //   display: flex;
+  align-content: center;
+  justify-content: center;
+  align-self: center;
+  width: 50%;
+}
+
+.CTASection__txt {
+}
+.CTASection__buttons {
+}
+.CTASection__button-dense-black_margin {
+  margin-right: 20px;
+}
+
+@media (max-width: 1450px) {
+  .CTASection {
+    flex-direction: column;
+    justify-content: center;
+  }
+  .CTASection__h1 {
+    text-align: center;
+  }
+  .CTASection__h2 {
+    text-align: center;
+    margin-bottom: 50px;
+  }
+  .CTASection__txt,
+  .CTASection__buttons {
+    align-content: center;
+    justify-content: center;
+    align-self: center;
+    width: 95%;
+  }
+  .CTASection__buttons {
+    display: flex;
+  }
+}
+
+@media (max-width: 1000px) {
+  .CTASection {
+    padding: 25px;
+  }
+  .CTASection__buttons {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+
+@media (max-width: 575px) {
+  .CTASection__button-dense-black_margin {
+    margin-right: 20px;
+  }
+}
+
+@media (max-width: 520px) {
+  .CTASection__button-dense-black_margin {
+    margin-right: 0px;
+  }
+}

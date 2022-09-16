@@ -1,0 +1,44 @@
+/*
+ * Fonts
+ ******************************************************************************/
+/*@font-face нужно объявлять до того, как вы обратитесь в CSS к этому шрифту.
+ Принято подключать шрифты в самом начале файла стилей (но после всех @import)*/
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('./fonts/Roboto/Roboto-Light.ttf') format('truetype');
+  font-style: normal;
+  font-weight: light;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('./fonts/Roboto/Roboto-Regular.ttf') format('truetype');
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('./fonts/Roboto/Roboto-Bold.ttf') format('truetype');
+  font-style: normal;
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('./fonts/Roboto/Roboto-Italic.ttf') format('truetype');
+  font-style: italic;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('./fonts/Roboto/Roboto-Medium.ttf') format('truetype');
+  font-style: normal;
+  font-weight: 500;
+}
+
+.body {
+  font-family: 'Roboto', sans-serif;
+}
