@@ -12,7 +12,7 @@ const PostsTall = () => {
 
           <div className="postsTall__cards">
             <div className="postTall__card">
-              <img src="./img/gifts1.png" alt="" />
+              <img src="./img/gifts1.webp" alt="" />
               <div className="postTall__card-txt">
                 <p className="postTall__card-heading">Birthday</p>
                 <a className="postTall__card-link" href="#">
@@ -21,7 +21,7 @@ const PostsTall = () => {
               </div>
             </div>
             <div className="postTall__card">
-              <img src="./img/gifts2.png" alt="" />
+              <img src="./img/gifts2.webp" alt="" />
               <div className="postTall__card-txt">
                 <p className="postTall__card-heading">Anniversary</p>
                 <a className="postTall__card-link" href="#">
@@ -30,7 +30,7 @@ const PostsTall = () => {
               </div>
             </div>
             <div className="postTall__card">
-              <img src="./img/gifts3.png" alt="" />
+              <img src="./img/gifts3.webp" alt="" />
               <div className="postTall__card-txt">
                 <p className="postTall__card-heading">Valentine's Day</p>
                 <a className="postTall__card-link" href="#">
@@ -39,7 +39,7 @@ const PostsTall = () => {
               </div>
             </div>
             <div className="postTall__card">
-              <img src="./img/gifts4.png" alt="" />
+              <img src="./img/gifts4.webp" alt="" />
               <div className="postTall__card-txt">
                 <p className="postTall__card-heading">Christmas</p>
                 <a className="postTall__card-link" href="#">

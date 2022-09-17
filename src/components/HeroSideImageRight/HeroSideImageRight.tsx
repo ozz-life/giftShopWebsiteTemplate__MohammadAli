@@ -16,7 +16,7 @@ const HeroSideImageRight = () => {
             </div>
           </div>
           <div className="heroSideImageRight__image">
-            <img src="./img/about-right.jpg" alt="" />
+            <img src="./img/about-right.webp" alt="" />
           </div>
         </div>
       </div>

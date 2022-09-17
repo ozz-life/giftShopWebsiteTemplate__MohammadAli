@@ -4,7 +4,7 @@ const FeatureSplitRight = () => {
       <div className="container">
         <div className="featureSplitRight__wrapper">
           <div className="featureSplitRight__image">
-            <img src="./img/about-left.png" alt="" />
+            <img src="./img/about-left.webp" alt="" />
           </div>
           <div className="featureSplitRight__work">
             <div className="featureSplitRight__centered">

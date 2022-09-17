@@ -14,7 +14,7 @@ const PostsBlogTop = () => {
         <div className="postsBlogTop__posts">
           <article className="postsBlogTop__article postsBlogTop__article-top">
             <div className="postsBlogTop__article-image">
-              <img src="./img/posts.png" alt="" />
+              <img src="./img/posts.webp" alt="" />
             </div>
             <div className="postsBlogTop__article-txt_top">
               <p className="postsBlogTop__article-author postsBlogTop__article-author_top">
